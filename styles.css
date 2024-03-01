@@ -1,0 +1,109 @@
+/* Yleiset tyylit */
+body {
+    background-color: #001816;
+    color: #E1E1E1;
+    font-family: 'Karma', sans-serif; 
+    margin: 0;
+}
+
+/* Header-alueen tyylit */
+header {
+    background-color: #28494A;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Navigaatiopalkin tyylit */
+nav ul {
+    list-style-type: none;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between; 
+    max-width: 90%; 
+    margin: 0 auto; 
+
+nav ul li {
+    flex: 1; 
+    width: 10px;
+    text-align: center; 
+}}
+
+nav a {
+    text-decoration: none;
+    color: #001816;
+    padding: 7px;
+    background-color: #C0C0C0;
+    border-radius: 5px; 
+    font-weight: bold; 
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #B08E00;
+    color: #003A03;
+}
+
+/* Muutettu navigaatiopalkin näkyvyyttä pienemmille näytöille */
+@media only screen and (max-width: 680px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: top; 
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav li {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Pääsisällön tyylit */
+main {
+    padding: 20px;
+    max-width: 65%; 
+    margin: 0 auto; 
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pienennetty_kuva {
+    max-width: 60%;
+    height: auto;
+}
+
+.keskikokoinen_kuva {
+    max-width: 75%;
+    height: auto;
+}
+
+/* Footer-alueen tyylit */
+footer {
+    background-color: #28494A;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    color: #C0C0C0;
+    margin: 0;
+    font-weight: bold; 
+}
