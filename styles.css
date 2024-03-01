@@ -96,12 +96,12 @@ main {
 }
 
 .link-container a {
-    color: silver; /* Hopeanharmaa väri */
-    text-decoration: none; /* Poistaa linkkien alleviivauksen */
+    color: silver; 
+    text-decoration: none; 
 }
 
 .link-container a:hover {
-    text-decoration: underline; /* Lisää alleviivauksen, kun hiiri on linkin päällä */
+    text-decoration: underline;
 }
 
 
