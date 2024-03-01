@@ -95,6 +95,16 @@ main {
     height: auto;
 }
 
+.link-container a {
+    color: silver; /* Hopeanharmaa väri */
+    text-decoration: none; /* Poistaa linkkien alleviivauksen */
+}
+
+.link-container a:hover {
+    text-decoration: underline; /* Lisää alleviivauksen, kun hiiri on linkin päällä */
+}
+
+
 /* Footer-alueen tyylit */
 footer {
     background-color: #28494A;
